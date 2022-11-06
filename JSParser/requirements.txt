@@ -4,3 +4,4 @@ jsbeautifier
 netaddr
 pycurl
 BeautifulSoup4
+requests>=2.20 # not directly required, pinned by Snyk to avoid a vulnerability
