@@ -1,5 +1,5 @@
 # iron/go:dev is the alpine image with the go tools added
-FROM golang
+FROM golang:1.23rc2
 WORKDIR /app
 
 # Set an env var that matches your github repo name
